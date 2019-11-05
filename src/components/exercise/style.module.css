@@ -1,17 +1,37 @@
 .block {
-  width: 80px; 
+  width: 250px; 
   height: 80px;
-  border: 1px solid #ccc 
-}
-
-.img{
-  height: 40px;
-}
-
-.img img{
-  max-width: 100%
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
 }
 
 .name{
   font-style: 24px;
 }
+
+.icon{
+  width: 40px;
+  height: 80px;
+  margin: 0 20px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+
+.info{
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.pacman{
+  background-image: url('../../images/pacman.svg');
+}
+
